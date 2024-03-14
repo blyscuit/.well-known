@@ -1,0 +1,30 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "P34638RAQR.com.cbtl.nexus", "P34638RAQR.com.cbtl.nexus.staging", "P34638RAQR.com.cbtl.nexus.dev" ],
+             "components": [
+               {
+                  "/": "/",
+                  "comment": "Matches empty path."
+               },
+               {
+                  "/": "/products/*",
+                  "comment": "Matches any URL with a path that starts with /products/."
+               },
+               {
+                  "/": "/rewards/*",
+                  "comment": "Matches any URL with a path that starts with /rewards/."
+               },
+               {
+                  "/": "/stores/*",
+                  "comment": "Matches any URL with a path that starts with /stores/."
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "P34638RAQR.com.cbtl.nexus" ]
+   }
+}
